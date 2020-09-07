@@ -44,7 +44,7 @@ class EControlAtFuel extends utils.Adapter {
 		// Reset the connection indicator during startup
 		this.setState('info.connection', false, true);
 
-		// timmer control min limit.
+		// timer control min limit.
 		timer = this.config.interval;
 		if (timer < 10) {
 			timer = 10;
